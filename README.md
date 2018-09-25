@@ -1,1 +1,1 @@
-# java-go-performance-benchmark
+# java and go performance benchmark
