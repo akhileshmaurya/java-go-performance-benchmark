@@ -1,0 +1,42 @@
+buildscript {
+        repositories {
+                mavenCentral()
+                jcenter()               
+        }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+version = '1.0'
+
+repositories {
+                mavenCentral()
+                jcenter()               
+}
+
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+	compile("com.google.code.gson:gson:2.2.4")
+	compile('args4j:args4j:2.33')
+	compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.0'
+	compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.0'
+	compile group: 'commons-dbutils', name: 'commons-dbutils', version: '1.6'
+	compile group: 'org.json', name: 'json', version: '20180130'
+	compile group: 'io.netty', name: 'netty-all', version: '4.1.29.Final'
+	//For Older Netty
+	compile 'org.jboss.netty:netty:3.2.4.Final'
+	
+}
+jar {
+    manifest {
+        attributes "Main-Class": "com.test.netty.main.NettyServerBenchMark"
+    }
+ 
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
