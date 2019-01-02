@@ -3,9 +3,11 @@ com/app/generated/JMHOddNumber_isOddTwo_jmhTest.class
 com/app/generated/JMHMapPutter_syncPut_jmhTest.class
 com/app/BenchMarkMain.class
 com/app/JMHBatchSize.class
+com/app/generated/JMHStringFunction_replaceStringUtils_jmhTest.class
 com/app/generated/JMHOddNumber_jmhType_B2.class
 com/app/generated/JMHBatchSize_jmhType_B3.class
 com/app/generated/JMHMapPutter_jmhType_B1.class
+com/app/generated/JMHStringFunction_jmhType_B2.class
 META-INF/BenchmarkList
 com/app/generated/JMHOddNumber_jmhType_B1.class
 com/app/generated/JMHMapPutter_jmhType_B3.class
@@ -15,10 +17,15 @@ com/app/generated/JMHOddNumber_isOddOne_jmhTest.class
 com/app/generated/JMHMapPutter_conncurrentPut_jmhTest.class
 com/app/generated/JMHBatchSize_jmhType_B2.class
 com/app/JMHOddNumber.class
+com/app/generated/JMHStringFunction_jmhType_B1.class
 com/app/JMHMapPutter.class
+com/app/generated/JMHStringFunction_replaceString_jmhTest.class
 com/app/generated/JMHBatchSize_measureWrong_1_jmhTest.class
+com/app/generated/JMHStringFunction_jmhType.class
+com/app/JMHStringFunction.class
 com/app/generated/JMHOddNumber_jmhType.class
 com/app/generated/JMHMapPutter_jmhType_B2.class
+com/app/generated/JMHStringFunction_jmhType_B3.class
 com/app/generated/JMHBatchSize_jmhType.class
 com/app/generated/JMHBatchSize_measureWrong_5_jmhTest.class
 com/app/generated/JMHMapPutter_jmhType.class

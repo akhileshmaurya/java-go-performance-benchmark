@@ -1,0 +1,9 @@
+JMH S 20 com.app.JMHMapPutter S 53 com.app.generated.JMHMapPutter_conncurrentPut_jmhTest S 14 conncurrentPut S 10 Throughput I 2 16 A 1 1 1 E I 1 3 E E I 1 3 E E I 1 2 E E E E E E U 7 SECONDS E E 
+JMH S 20 com.app.JMHBatchSize S 51 com.app.generated.JMHBatchSize_measureRight_jmhTest S 12 measureRight S 14 SingleShotTime E A 1 1 1 E I 1 5 E I 4 5000 I 1 5 E I 4 5000 E E E E E E E U 11 NANOSECONDS E E 
+JMH S 20 com.app.JMHMapPutter S 46 com.app.generated.JMHMapPutter_syncPut_jmhTest S 7 syncPut S 10 Throughput I 2 16 A 1 1 1 E I 1 3 E E I 1 3 E E I 1 2 E E E E E E U 7 SECONDS E E 
+JMH S 20 com.app.JMHOddNumber S 47 com.app.generated.JMHOddNumber_isOddTwo_jmhTest S 8 isOddTwo S 10 Throughput I 2 16 A 1 1 1 E I 1 3 E E I 1 5 E E I 1 5 E E E E E E U 12 MICROSECONDS E E 
+JMH S 20 com.app.JMHBatchSize S 53 com.app.generated.JMHBatchSize_measureWrong_1_jmhTest S 14 measureWrong_1 S 11 AverageTime E A 1 1 1 E I 1 5 T 3 1 s E I 1 5 T 3 1 s E E E E E E E E U 11 NANOSECONDS E E 
+JMH S 25 com.app.JMHStringFunction S 57 com.app.generated.JMHStringFunction_replaceString_jmhTest S 13 replaceString S 10 Throughput I 2 16 A 1 1 1 E I 1 3 E E I 1 5 E E I 1 5 E E E E E E U 12 MICROSECONDS E E 
+JMH S 20 com.app.JMHOddNumber S 47 com.app.generated.JMHOddNumber_isOddOne_jmhTest S 8 isOddOne S 10 Throughput I 2 16 A 1 1 1 E I 1 3 E E I 1 5 E E I 1 5 E E E E E E U 12 MICROSECONDS E E 
+JMH S 25 com.app.JMHStringFunction S 62 com.app.generated.JMHStringFunction_replaceStringUtils_jmhTest S 18 replaceStringUtils S 10 Throughput I 2 16 A 1 1 1 E I 1 3 E E I 1 5 E E I 1 5 E E E E E E U 12 MICROSECONDS E E 
+JMH S 20 com.app.JMHBatchSize S 53 com.app.generated.JMHBatchSize_measureWrong_5_jmhTest S 14 measureWrong_5 S 11 AverageTime E A 1 1 1 E I 1 5 T 3 5 s E I 1 5 T 3 5 s E E E E E E E E U 11 NANOSECONDS E E 
