@@ -10,8 +10,8 @@ public class BenchMarkMain {
   public static void main(String[] args) throws RunnerException {
     // runBenchMark(JMHMapPutter.class.getName());
     // runBenchMark(JMHOddNumber.class.getName());
-    runBenchMark(JMHStringFunction.class.getName());
-
+    // runBenchMark(JMHStringFunction.class.getName());
+    runBenchMark(JMHNumber.class.getName());
   }
 
   private static void runBenchMark(String className) {
