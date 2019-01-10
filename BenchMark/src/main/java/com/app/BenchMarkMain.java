@@ -11,7 +11,9 @@ public class BenchMarkMain {
     // runBenchMark(JMHMapPutter.class.getName());
     // runBenchMark(JMHOddNumber.class.getName());
     // runBenchMark(JMHStringFunction.class.getName());
-    runBenchMark(JMHNumber.class.getName());
+    // runBenchMark(JMHNumber.class.getName());
+    runBenchMark(JMHLoops.class.getName());
+
   }
 
   private static void runBenchMark(String className) {
